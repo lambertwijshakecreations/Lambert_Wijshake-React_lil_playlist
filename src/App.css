@@ -1,0 +1,84 @@
+.musiclist-header{
+  display:flex;
+  justify-content: center;
+ 
+}
+
+
+.musiclist-header img{
+  width: 120px;
+  margin-right: 70px;
+}
+
+nav {
+  display:flex;
+  justify-content: space-around;
+  background-color: rgb(31, 182, 31);
+}
+
+
+nav ul li {
+ 
+  display: inline;
+  margin: 0 50px;
+  list-style: none;
+  color:#fff;
+}
+
+.container {
+display: grid;
+justify-content: center;
+}
+
+
+.input-field input{
+  margin: 0 3px;
+}
+
+.input-field select{
+  margin: 0 3px;
+}
+
+
+.container-banner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border:1px solid  rgb(31, 182, 31);
+  margin-top:2px;
+
+}
+
+.container-banner h4 {
+margin: 0 auto;
+}
+
+.container-about{
+  text-align: center;
+  width:50%;
+  margin:0 auto;
+}
+
+.song-list-item {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: start;
+  margin-right:10px;
+  padding:3px 0;
+}
+
+
+.song-list-item:nth-child(even) {
+  background-color: rgb(127, 212, 139);
+}
+
+.song-list-item span {
+  margin: 0 auto;
+}
+
+
+.footer-field {
+display: flex;
+justify-content: center;
+}
+
